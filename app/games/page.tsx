@@ -2,8 +2,8 @@ import Link from "next/link";
 import { games } from "@/lib/games";
 
 export const metadata = {
-  title: "Games",
-  description: "Interactive web games and side projects.",
+  title: "Placeholder Title",
+  description: "Placeholder Description",
 };
 
 export default function GamesPage() {
@@ -16,12 +16,11 @@ export default function GamesPage() {
         &larr; Back home
       </Link>
 
-      <h1 className="text-2xl font-semibold mt-4 mb-6">Games</h1>
+      <h1 className="text-2xl font-semibold mt-4 mb-6">Placeholder Title</h1>
 
       {games.length === 0 ? (
         <p className="text-black/60 dark:text-white/60">
-          Nothing here yet &mdash; small interactive games and links to other
-          web apps will show up here as they&apos;re built.
+          Placeholder Description
         </p>
       ) : (
         <ul className="flex flex-col gap-4">

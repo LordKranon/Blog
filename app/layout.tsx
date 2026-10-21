@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "My Personal Site",
-  description: "Personal blog and playground for interactive web games.",
+  title: "Placeholder Title",
+  description: "Placeholder Description",
 };
 
 export default function RootLayout({
@@ -42,7 +42,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <footer className="border-t border-black/[.08] dark:border-white/[.145] py-6">
           <div className="max-w-2xl mx-auto px-6 text-xs text-black/60 dark:text-white/60">
-            Built with Next.js, deployed on Vercel.
+            Placeholder Description
           </div>
         </footer>
       </body>

@@ -7,19 +7,17 @@ export default function Home() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-12">
       <section className="mb-12">
-        <h1 className="text-2xl font-semibold mb-3">Hi, welcome to my site</h1>
+        <h1 className="text-2xl font-semibold mb-3">Placeholder Title</h1>
         <p className="text-black/70 dark:text-white/70">
-          This is where I write about things I&apos;m working on and, eventually,
-          where I&apos;ll host a few small interactive web games. Have a look
-          around.
+          Placeholder Description
         </p>
       </section>
 
       <section>
-        <h2 className="text-lg font-semibold mb-4">Blog posts</h2>
+        <h2 className="text-lg font-semibold mb-4">Placeholder Title</h2>
         {posts.length === 0 ? (
           <p className="text-black/60 dark:text-white/60">
-            No posts yet &mdash; check back soon.
+            Placeholder Description
           </p>
         ) : (
           <ul className="flex flex-col gap-4">
